@@ -206,3 +206,11 @@ Vehicle.Connectivity:
 #include Vehicle/Connectivity.vspec Vehicle.Connectivity
 
 #include Vehicle/Diagnostics.vspec Vehicle
+
+#
+# The example branch used to host the signals and attributes.
+#
+Vehicle.Example:
+  type: branch
+  description: Example data for test, etc.
+#include Example/Example.vspec Vehicle.Example
